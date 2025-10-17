@@ -113,6 +113,20 @@ body {
   background-color: #0056b3;
 }
 
+.btn-primarys {
+  
+  color: rgb(83, 81, 81);
+  border: none;
+  padding: 12px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+
+
 /*  SECCIONES GENERALES */
 section {
   padding: 50px 50px;
