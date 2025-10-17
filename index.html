@@ -3,32 +3,144 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page Blancanieves</title>
+  <title>Disney</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Disney Snow White</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Disney+</a></li>
-        <li><a href="#">Parques</a></li>
-        <li><a href="#">Películas</a></li>
-        <li><a href="#">Tienda</a></li>
-        <li><a href="#">Más</a></li>
-      </ul>
-    </nav>
+  <header class="main-header">
+    <div class="top-bar">
+      <img src="images/logo.png" alt="Disney" class="logo">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">DISNEY+</a></li>
+          <li><a href="#">PARQUES Y VIAJES</a></li>
+          <li><a href="#">PELÍCULAS Y SHOWS</a></li>
+          <li><a href="#">TIENDA</a></li>
+          <li><a href="#">MÁS</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+        <a href="#" class="login-btn">INICIAR SESIÓN</a>
+      </div>
+    </div>
   </header>
 
-  <section class="banner">
-    <h2>Snow White</h2>
-    <p>Experimenta Snow White, ¡ahora en cines!</p>
-    <button>Get Tickets Now</button>
-    <button>Learn More</button>
-  </section>
+  <main>
+    <section class="hero-banner">
+      <div class="banner-content">
+        <img src="images/snow-white.png" alt="Snow White Title" class="snow-white-title">
+        <p class="tagline">Experience Snow White, Now In Theatres</p>
+        <button class="btn-primary">GET TICKETS NOW</button>
+      </div>
+    </section>
+
+    <section class="featured-content">
+      <div class="content-row">
+        <div class="content-card">
+          <img src="images/shop-image-1.png" alt="A Little Wish">
+          <h3>A Little Wish</h3>
+          <p>WATCH VIDEO</p>
+          <a href="#" class="card-link">VER VÍDEO</a>
+        </div>
+        <div class="content-card">
+          <img src="images/shop-image-2.png" alt="The Art of Snow White">
+          <h3>The Art of Snow White</h3>
+          <p>WATCH NOW</p>
+          <a href="#" class="card-link">MÁS INFO</a>
+        </div>
+        <div class="content-card">
+          <img src="images/shop-image-3.png" alt="Snow White">
+          <h3>Snow White</h3>
+          <p>Q&A with the Cast</p>
+          <a href="#" class="card-link">VER AHORA</a>
+        </div>
+        <div class="content-card">
+          <img src="images/shop-image-4.png" alt="A Song and A Story">
+          <h3>A Song and A Story</h3>
+          <p>LISTEN NOW</p>
+          <a href="#" class="card-link">APRENDER MÁS</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore-more">
+      <h2>Explore More Disney*</h2>
+      <div class="explore-grid">
+        <div class="explore-card">
+          <img src="images/disney-plus-1.png" alt="Moana 2">
+          <div class="card-info">
+            <h4>MOANA 2</h4>
+            <p>Solo en cines | Noviembre 27</p>
+          </div>
+        </div>
+        <div class="explore-card">
+          <img src="images/disney-plus-2.png" alt="Daredevil">
+          <div class="card-info">
+            <h4>DAREDEVIL</h4>
+            <p>Coming Soon</p>
+          </div>
+        </div>
+        <div class="explore-card">
+          <img src="images/disney-plus-3.png" alt="Next Day Disney+">
+          <div class="card-info">
+            <h4>NEXT DAY</h4>
+            <p>Stream Next Day on Disney+</p>
+            <a href="#" class="btn-learn">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="coming-soon">
+      <h2>Coming Soon to Disney+*</h2>
+      <div class="movies-grid">
+        <div class="movie-card"><img src="images/movies-1.jpeg" alt="The Fabulous Four"></div>
+        <div class="movie-card"><img src="images/movies-2.jpeg" alt="Andor"></div>
+        <div class="movie-card"><img src="images/movies-3.jpeg" alt="Ironheart"></div>
+        <div class="movie-card"><img src="images/movies-4.jpeg" alt="Avatar/Tierra"></div>
+        <div class="movie-card"><img src="images/movies-5.jpeg" alt="Doombies"></div>
+      </div>
+    </section>
+
+    <section class="parks-vacation">
+      <h2>Vacation with Disney Parks*</h2>
+      <div class="parks-grid">
+        <div class="park-card">
+          <img src="images/disney-parks-1.png" alt="Disneyland Hotel">
+          <div class="park-info">
+            <h3>Disneyland</h3>
+            <p>Stay 4 Nights, Get 1 Free! Valid for stays most nights from Jan 5 through March 20, 2025.</p>
+            <a href="#" class="btn-learn">LEARN MORE</a>
+          </div>
+        </div>
+        <div class="park-card">
+          <img src="images/disney-parks-2.png" alt="Disneyland Family">
+          <div class="park-info">
+            <h3>Disneyland</h3>
+            <p>Book a room & ticket package now through Feb. 28, 2025 for a stay from Jan. 5 through March 20, 2025.</p>
+            <a href="#" class="btn-learn">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="credit-cards">
+  <div class="card-content">
+    <div class="offer-text">
+      <h3>GET MORE DISNEY EVERY DAY</h3>
+      <p class="special-offer">Special Offer</p>
+      <p class="special-financing">Special Vacation Financing</p>
+      <button class="btn-apply">APPLY NOW</button>
+    </div>
+    <img src="images/more-background.jpeg" alt="Disney Visa Cards" class="card-background">
+  </div>
+</section>
+  </main>
 
   <footer>
-    <p>© 2025 Disney. Todos los derechos reservados.</p>
+    <p>© Disney. Términos de uso. Política de privacidad. Derechos de privacidad. © 2025 Disney.</p>
   </footer>
 </body>
 </html>
