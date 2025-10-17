@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
   <header class="main-header">
     <div class="top-bar">
@@ -21,8 +23,9 @@
         </ul>
       </nav>
       <div class="header-actions">
+        <a href="#" class="login-btn">LOG IN</a>
+        <label for="search-input"></label>
         <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
-        <a href="#" class="login-btn">INICIAR SESIÓN</a>
       </div>
     </div>
   </header>
@@ -73,6 +76,7 @@
           <div class="card-info">
             <h4>MOANA 2</h4>
             <p>Solo en cines | Noviembre 27</p>
+            <a href="#" class="btn-learn">AVAILABLE ON DISNEY+</a>
           </div>
         </div>
         <div class="explore-card">
@@ -80,6 +84,7 @@
           <div class="card-info">
             <h4>DAREDEVIL</h4>
             <p>Coming Soon</p>
+            <a href="#" class="btn-learn">STREAM NOW</a>
           </div>
         </div>
         <div class="explore-card">
@@ -96,11 +101,31 @@
     <section class="coming-soon">
       <h2>Coming Soon to Disney+*</h2>
       <div class="movies-grid">
-        <div class="movie-card"><img src="images/movies-1.jpeg" alt="The Fabulous Four"></div>
-        <div class="movie-card"><img src="images/movies-2.jpeg" alt="Andor"></div>
-        <div class="movie-card"><img src="images/movies-3.jpeg" alt="Ironheart"></div>
-        <div class="movie-card"><img src="images/movies-4.jpeg" alt="Avatar/Tierra"></div>
-        <div class="movie-card"><img src="images/movies-5.jpeg" alt="Doombies"></div>
+        <div class="movie-card">
+          <img src="images/movies-1.jpeg" alt="Alexander and the Terrible, Horrible, No Good, Very Bad...">
+          <h4>Alexander and the Terrible, Horrible, No Good, Very Bad...</h4>
+          <p>Streaming March 20, 2025</p>
+        </div>
+        <div class="movie-card">
+          <img src="images/movies-2.jpeg" alt="Andor Season 2">
+          <h4>Andor Season 2</h4>
+          <p>Streaming April 22, 2025</p>
+        </div>
+        <div class="movie-card">
+          <img src="images/movies-3.jpeg" alt="Ironheart">
+          <h4>Ironheart</h4>
+          <p>Streaming June 24, 2025</p>
+        </div>
+        <div class="movie-card">
+          <img src="images/movies-4.jpeg" alt="Percy Jackson and The Olympians Season 2">
+          <h4>Percy Jackson and The Olympians Season 2</h4>
+          <p>Coming Soon</p>
+        </div>
+        <div class="movie-card">
+          <img src="images/movies-5.jpeg" alt="The Doomies">
+          <h4>The Doomies</h4>
+          <p>Coming Soon</p>
+        </div>
       </div>
     </section>
 
@@ -126,21 +151,33 @@
       </div>
     </section>
 
-<section class="credit-cards">
-  <div class="card-content">
-    <div class="offer-text">
-      <h3>GET MORE DISNEY EVERY DAY</h3>
-      <p class="special-offer">Special Offer</p>
-      <p class="special-financing">Special Vacation Financing</p>
-      <button class="btn-apply">APPLY NOW</button>
-    </div>
-    <img src="images/more-background.jpeg" alt="Disney Visa Cards" class="card-background">
-  </div>
-</section>
+    <section class="credit-cards">
+      <div class="card-content">
+        <div class="card-stack">
+          <img src="images/more-background.jpeg" alt="Disney Visa Cards">
+        </div>
+        <div class="offer-text">
+          <h3>GET MORE DISNEY EVERY DAY</h3>
+          <p class="special-offer">Special Offer</p>
+          <p class="offer-details">
+            Earn a <strong>$400</strong> statement credit.<br>
+            New Disney® Premier Visa® Cardmembers only.
+          </p>
+          <p class="special-financing">Special Vacation Financing</p>
+          <p class="financing-details">
+            Enjoy 0% promotional APR for 6 months on select Disney vacation packages.<br>
+            Terms apply.
+          </p>
+          <button class="btn-apply">LEARN MORE</button>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer>
     <p>© Disney. Términos de uso. Política de privacidad. Derechos de privacidad. © 2025 Disney.</p>
   </footer>
 </body>
+
 </html>
